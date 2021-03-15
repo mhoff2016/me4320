@@ -35,11 +35,10 @@ void step(boolean dir, byte dirPin, byte stepperPin, int stps, int delayTime)
 
  
 
-  pinMode(X_DIR, OUTPUT); pinMode(X_STP, OUTPUT);
+  pinMode(In_DIR, OUTPUT); pinMode(In_STP, OUTPUT);
 
-  pinMode(Y_DIR, OUTPUT); pinMode(Y_STP, OUTPUT);
+  pinMode(Crank_DIR, OUTPUT); pinMode(Crank_STP, OUTPUT);
 
- // pinMode(Z_DIR, OUTPUT); pinMode(Z_STP, OUTPUT);
 
   pinMode(EN, OUTPUT);
 
